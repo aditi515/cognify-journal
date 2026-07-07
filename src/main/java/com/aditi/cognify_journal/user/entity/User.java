@@ -42,6 +42,5 @@ public class User {
     @OneToMany(mappedBy = "user")
     private List<JournalEntry> journalEntries;
 
-    @OneToMany(mappedBy = "user")
-    private List<Tag> tags;
+
 }
