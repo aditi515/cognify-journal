@@ -8,7 +8,7 @@ public interface JournalEntryService {
 
     JournalEntry createEntry(JournalEntry entry);
 
-    List<JournalEntry> getMyEntries();
+
 
     JournalEntry getEntryById(Long id);
 

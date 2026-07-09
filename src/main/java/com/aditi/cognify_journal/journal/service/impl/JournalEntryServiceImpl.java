@@ -20,11 +20,6 @@ public class JournalEntryServiceImpl implements JournalEntryService {
     }
 
     @Override
-    public List<JournalEntry> getMyEntries() {
-        throw new UnsupportedOperationException("Not implemented yet");
-    }
-
-    @Override
     public JournalEntry getEntryById(Long id) {
         throw new UnsupportedOperationException("Not implemented yet");
     }
