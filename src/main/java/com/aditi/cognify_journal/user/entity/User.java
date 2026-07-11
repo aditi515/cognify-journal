@@ -2,7 +2,6 @@ package com.aditi.cognify_journal.user.entity;
 
 
 import com.aditi.cognify_journal.journal.entity.JournalEntry;
-import com.aditi.cognify_journal.journal.entity.Tag;
 import jakarta.persistence.*;
 import lombok.*;
 import org.hibernate.annotations.CreationTimestamp;

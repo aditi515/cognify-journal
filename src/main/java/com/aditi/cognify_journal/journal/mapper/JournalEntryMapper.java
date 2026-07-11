@@ -20,10 +20,6 @@ public class JournalEntryMapper {
                 .id(entity.getId())
                 .title(entity.getTitle())
                 .content(entity.getContent())
-                .tags(entity.getTags()
-                        .stream()
-                        .map(tag -> tag.getName())
-                        .collect(Collectors.toList()))
                 .createdAt(entity.getCreatedAt())
                 .updatedAt(entity.getUpdatedAt())
                 .build();

@@ -15,7 +15,6 @@ public class JournalEntryResponseDto {
     private Long id;
     private String title;
     private String content;
-    private List<String> tags;
     private LocalDateTime createdAt;
     private LocalDateTime updatedAt;
 }

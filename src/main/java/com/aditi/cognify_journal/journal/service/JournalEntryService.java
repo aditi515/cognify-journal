@@ -8,8 +8,6 @@ public interface JournalEntryService {
 
     JournalEntry createEntry(JournalEntry entry);
 
-
-
     JournalEntry getEntryById(Long id);
 
     JournalEntry updateEntry(Long id, JournalEntry entry);
